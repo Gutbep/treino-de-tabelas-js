@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br" >
+    <head>
+    <meta charset="UTF-8">
+    <title>tabs js</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+    </head>
+    <body>
+
+        <div class="wrapper">
+        <h2 id="tabs-title">teste de tabelas</h2>
+        <main>
+            <section class="tabs-section">
+                <div class="tabs-container">
+                    <ul aria-labelledby="tabs-title">
+                        <li><a id="tab-1" href="#tabela-1"> conteudo tabela 1 </a></li>
+                        <li><a id="tab-2" href="#tabela-2"> conteudo tabela 2 </a></li>
+                        <li><a id="tab-3" href="#tabela-3"> conteudo tabela 3 </a></li>
+                        <li><a id="tab-4" href="#tabela-4"> conteudo tabela 4 </a></li>
+                    </ul>
+
+                    <div class="tabs__panels flow">
+                        <div id="tabela-1" aria-labelledby="tab-1">
+                            <p>
+                                conteudo tabela 1
+                            </p>
+                        </div>
+                        <div id="tabela-2" aria-labelledby="tab-2">
+                            <p>
+                                conteudo tabela 2
+                            </p>
+                        </div>
+                        <div id="tabela-3" aria-labelledby="tab-3">
+                            <p>
+                                conteudo tabela 3
+                            </p>
+                        </div>
+                        <div id="tabela-4" aria-labelledby="tab-4">
+                            <p>
+                                conteudo tabela 4
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+        </main>
+  
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
